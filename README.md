@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3dda3e0d-cdac-4fd8-ae60-7a9f5c9f85eb/deploy-status)](https://app.netlify.com/sites/frosty-bartik-5b1fb0/deploys)
+
+
 # sapper-template
 
 The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
