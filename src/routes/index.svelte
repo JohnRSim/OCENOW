@@ -49,7 +49,8 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>OCE NOW</title>
+	<meta name="description" content="The Enterprise Content Management Accelerator For HCM; Providing a true Employee Engagement Platform">
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </svelte:head>
 
@@ -59,5 +60,3 @@
 	<img alt='Borat' src='great-success.png'>
 	<figcaption>HIGH FIVE!</figcaption>
 </figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
