@@ -16,7 +16,7 @@
 	}
 	#ON-logo {
 		width:125px;
-		margin:10px;
+  		margin: 16px 0px 0px 20px;
 	}
 	main {
 		position: relative;
