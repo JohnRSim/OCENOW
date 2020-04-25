@@ -91,7 +91,7 @@
 
 <div id="ON-siteWrapper">
 	<header>
-		<img id="ON-logo" src="logo_oce_now.svg" alt="" />
+		<img id="ON-logo" src="logo_oce_now.svg" alt="OCE Now" />
 		<HeaderNav {segment}/>
 		<article>
 			<h1>Your Content Experience Accelerator</h1>
@@ -103,7 +103,7 @@
 		</article>
 
 		<div id="ON-powered">
-			<img id="ON-logoOracle" src="images/logo_oracle.svg" alt="" />
+			<img id="ON-logoOracle" src="images/logo_oracle.svg" alt="Oracle" />
 			<b>POWERED BY</b>
 		</div>
 	</header>
