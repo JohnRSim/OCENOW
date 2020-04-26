@@ -2,21 +2,19 @@
 	export let segment;
 
 	let navWrapper;
-	
-	
-if (process.browser) {
-	window.addEventListener("scroll", () => {
-		const currentScroll = window.pageYOffset;
-		if (currentScroll === 0) {
-			navWrapper.style.backgroundColor = `rgba(15,9,47,0)`;
-			return;
-		} else {
-			const opacity = (currentScroll >= 100)? 1: currentScroll/100;
-			console.log(opacity);
-			navWrapper.style.backgroundColor = `rgba(15,9,47,${opacity})`;
-		}
-	});
-}
+		
+		
+	if (process.browser) {
+		window.addEventListener('scroll', () => {
+			const currentScroll = window.pageYOffset;
+			if (currentScroll === 0) {
+				navWrapper.style.backgroundColor = `rgba(15,9,47,0)`;
+			} else {
+				const opacity = (currentScroll >= 100)? 1: currentScroll/100;
+				navWrapper.style.backgroundColor = `rgba(15,9,47,${opacity})`;
+			}
+		});
+	}
 </script>
 
 <style>

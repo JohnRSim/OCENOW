@@ -162,7 +162,7 @@
 			<h1>Your Content Experience Accelerator</h1>
 			<p>
 				Helping to rapidly create dynamic microsites, portals and support personalised users experiences with the<br /> 
-				<a class="extlink" href="https://www.oracle.com/middleware/technologies/content-experience.html" target="_blank">Oracle Content and Experience platform</a>
+				<a class="extlink" href="https://www.oracle.com/middleware/technologies/content-experience.html" target="_blank" rel="noreferrer">Oracle Content and Experience platform</a>
 			</p>
 			<button>Learn More</button>
 		</article>
