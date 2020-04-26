@@ -51,7 +51,7 @@
 <svelte:head>
 	<title>OCE NOW</title>
 	<meta name="description" content="The Enterprise Content Management Accelerator For HCM; Providing a true Employee Engagement Platform">
-	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	<script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </svelte:head>
 
 <h1>Great success!</h1>

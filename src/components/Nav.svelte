@@ -48,6 +48,22 @@
 	a.active {
 		font-weight: bold;
 	}
+	
+
+	@media (max-width: 768px) {
+		nav {
+    		overflow-y: hidden;
+			overflow-x: auto;
+		}
+		nav ul { 
+			height: 50px;
+			display: flex;
+		}	
+		nav ul li {
+			float: none;
+			white-space: nowrap;
+		} 
+	}
 </style>
 
 <nav>
