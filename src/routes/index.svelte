@@ -49,7 +49,7 @@
 </style>
 
 <svelte:head>
-	<title>OCE NOW</title>
+	<title>OCE Now - Your Content Experience Accelerator</title>
 	<meta name="description" content="The Enterprise Content Management Accelerator For HCM; Providing a true Employee Engagement Platform">
 </svelte:head>
 
