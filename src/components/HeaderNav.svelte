@@ -33,7 +33,10 @@
 		display: flex;
 		padding:12px 12px 12px 20px;
 		min-height:40px;	
-	    flex-flow: wrap;
+		flex-flow: wrap;
+		max-width:1000px;
+		margin:0px auto;
+    	border-radius: 0px 0px 12px 12px;
 	}
 
 	.max {
@@ -96,9 +99,9 @@
 		</div>
 		<div class="navItems">
 			<ul>
-				<li><a class:active="{segment === undefined}" aria-current='{segment === undefined ? "page" : undefined}' href='.'>Content Management</a></li>
-				<li><a class:active="{segment === 'oda'}" aria-current='{segment === "oda" ? "page" : undefined}' href='https://oda.ocenow.com'>Digital Assistant</a></li>
-				<li><a class:active="{segment === 'hcm'}" aria-current='{segment === "hcm" ? "page" : undefined}' href='https://hcm.ocenow.com'>Human Capital Management</a></li>
+				<li><a class="active" href='.'>Content Management</a></li>
+				<li><a href='https://oda.ocenow.com'>Digital Assistant</a></li>
+				<li><a href='https://hcm.ocenow.com'>Human Capital Management</a></li>
 
 				<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 					the blog data when we hover over the link or tap it on a touchscreen -->
