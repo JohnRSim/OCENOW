@@ -1,3 +1,8 @@
+<script>
+	//transitions
+	import { send, receive } from '@ocenow/transition/crossfade';
+	import { fade } from 'svelte/transition';</script>
+
 <svelte:head>
 	<title>Solutions</title>
 </svelte:head>
