@@ -5,8 +5,8 @@
 		
 		
 	if (process.browser) {
-		window.addEventListener('scroll', () => {
-			const currentScroll = window.pageYOffset;
+		document.body.addEventListener('scroll', () => {
+			const currentScroll = document.body.scrollTop;
 			if (currentScroll === 0) {
 				navWrapper.style.backgroundColor = `rgba(15,9,47,0)`;
 			} else {
