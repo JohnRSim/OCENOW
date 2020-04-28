@@ -30,9 +30,11 @@
 	}
 	main {
 		position: relative;
+		flex:1;
 	}
 
-	#ON-powered {
+	#ON-powered,
+	#ON-developed {
 		position: absolute;
 		bottom:10px;
 		right:10px;
@@ -40,9 +42,14 @@
 		border-radius: 8px;
 		padding:12px;
 		z-index:10;
+		text-decoration: none;
+	}
+	#ON-developed {
+		right:150px
 	}
 	
-	#ON-powered b {
+	#ON-powered b,
+	#ON-developed b {
 		display: block;
 		text-align: center;
 		color:#fff;
@@ -50,6 +57,10 @@
 	}
 	
 	#ON-logoOracle {
+		width:105px;
+    	margin: 5px 0px;
+	}
+	#ON-logoFishbowl {
 		width:105px;
 	}
 	
@@ -135,15 +146,6 @@
 			margin-left:20px;
 			margin-right:20px;
 		}
-		#ON-powered {
-			left: 50%;
-			right: auto;
-			margin-left: -75px;
-			width: 150px;
-			text-align: center;
-			padding: 0px;
-		}
-
 		button {
 			min-height:40px;
 			margin-top:20px;
@@ -234,10 +236,14 @@
 			</article>
 			
 			<div class="wrapper" style="position:absolute;bottom:0px;width:100%;">
-				<div id="ON-powered">
+				<a href="https://fishbowlsolutions.com" target="_blank" rel="noreferrer" id="ON-developed">
+					<img id="ON-logoFishbowl" src="images/logo_fishbowl2.svg" alt="Developed by Fishbowl Solutions" />
+					<b>DEVELOPED BY</b>
+				</a>
+				<a href="https://oracle.com" target="_blank" rel="noreferrer" id="ON-powered">
 					<img id="ON-logoOracle" src="images/logo_oracle.svg" alt="Powered by Oracle" />
 					<b>POWERED BY</b>
-				</div>
+				</a>
 			</div>
 		</div>
 		<img class="carousel lazy" 
